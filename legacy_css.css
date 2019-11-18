@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+}
+
+h1, h2, table {
+  color: white;
+}
+
+li {
+  font-size: 24px;
+}
+
+table {
+  width: 100%;
+
+}
+
+.muffy {
+  color:orange;
+  text-align: center;
+}
+
+.tae {
+  color:orange;
+  text-align: center;
+}
+
+.funfact{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+#unorderedList{
+  color: hotpink;
+}
+
+#orderedList {
+  color: hotpink;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: purple; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: green; }
+  75% { color: purple; }
+  100% { color: red; }
+}
+@-ms-keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: green; }
+  75% { color: purple; }
+  100% { color: red; }
+}
+@-o-keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: green; }
+  75% { color: purple; }
+  100% { color: red; }
+}
+@keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: green; }
+  75% { color: purple; }
+  100% { color: red; }
+}
